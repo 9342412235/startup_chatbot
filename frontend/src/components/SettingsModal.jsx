@@ -58,7 +58,7 @@ export default function SettingsModal({ isOpen, onClose }) {
                 type={showKey ? "text" : "password"}
                 value={apiKey}
                 onChange={(e) => setApiKey(e.target.value)}
-                placeholder="AIzaSy..."
+                placeholder={import.meta.env.VITE_GEMINI_API_KEY ? "Pre-configured in .env" : "AIzaSy..."}
                 className="w-full py-2.5 pl-3 pr-10 bg-white/5 border border-white/10 rounded-xl text-white text-sm focus:border-accentPurple transition-colors"
               />
               <button

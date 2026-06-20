@@ -176,6 +176,10 @@ def search_local_knowledge(prompt, lang='en'):
 def generate_startup_guidance(prompt, api_key=None, history=[]):
     lang = detect_language(prompt)
     
+    # Fallback to backend environment variable if no API key is provided by the frontend
+    if not api_key:
+        api_key = os.environ.get('GEMINI_API_KEY')
+        
     # If API key is provided, try calling Gemini
     if api_key:
         try:

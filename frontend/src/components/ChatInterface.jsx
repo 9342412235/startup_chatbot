@@ -126,7 +126,7 @@ export default function ChatInterface() {
     setMessages(prev => [...prev, tempUserMsg]);
 
     try {
-      const apiKey = localStorage.getItem('ignite_gemini_key') || '';
+      const apiKey = localStorage.getItem('ignite_gemini_key') || import.meta.env.VITE_GEMINI_API_KEY || '';
       const data = await sendChatMessage(currentSessionId, textToSend, apiKey);
       
       // Update session ID if it was a new session
