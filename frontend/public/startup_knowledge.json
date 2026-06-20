@@ -1,0 +1,364 @@
+{
+  "industries": [
+    {
+      "id": "tech",
+      "name_en": "Technology & Software",
+      "name_ta": "தொழில்நுட்பம் மற்றும் மென்பொருள்"
+    },
+    {
+      "id": "agri",
+      "name_en": "Agriculture & Farming",
+      "name_ta": "விவசாயம் மற்றும் பண்ணைத்தொழில்"
+    },
+    {
+      "id": "retail",
+      "name_en": "E-Commerce & Retail",
+      "name_ta": "மின்-வணிகம் மற்றும் சில்லறை வர்த்தகம்"
+    },
+    {
+      "id": "edu",
+      "name_en": "Education & E-Learning",
+      "name_ta": "கல்வி மற்றும் மின்-கற்றல்"
+    },
+    {
+      "id": "finance",
+      "name_en": "Fintech & Finance Services",
+      "name_ta": "நிதி மற்றும் நிதி சேவைகள்"
+    },
+    {
+      "id": "health",
+      "name_en": "Health & Wellness",
+      "name_ta": "சுகாதாரம் மற்றும் ஆரோக்கியம்"
+    }
+  ],
+  "skills": [
+    {
+      "id": "coding",
+      "name_en": "Programming & Development",
+      "name_ta": "நிரலாக்கம் மற்றும் மேம்பாடு"
+    },
+    {
+      "id": "marketing",
+      "name_en": "Marketing & Social Media",
+      "name_ta": "சந்தைப்படுத்தல் மற்றும் சமூக ஊடகங்கள்"
+    },
+    {
+      "id": "sales",
+      "name_en": "Sales & Customer Relations",
+      "name_ta": "விற்பனை மற்றும் வாடிக்கையாளர் உறவுகள்"
+    },
+    {
+      "id": "design",
+      "name_en": "UI/UX & Graphic Design",
+      "name_ta": "வடிவமைப்பு மற்றும் கிராஃபிக் வடிவமைப்பு"
+    },
+    {
+      "id": "writing",
+      "name_en": "Content Writing & Research",
+      "name_ta": "உள்ளடக்க எழுத்து மற்றும் ஆராய்ச்சி"
+    },
+    {
+      "id": "management",
+      "name_en": "Operations & Management",
+      "name_ta": "செயல்பாடுகள் மற்றும் மேலாண்மை"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "agritech_iot",
+      "industry": "agri",
+      "skills_required": ["coding", "design", "management"],
+      "title_en": "AgriTech Smart Irrigation & Soil Sensing",
+      "title_ta": "அகிரிடெக் ஸ்மார்ட் நீர்ப்பாசனம் மற்றும் மண் உணரி",
+      "description_en": "An IoT-based automated watering system that helps farmers conserve water and optimize crop yield using sensor data and a mobile application.",
+      "description_ta": "விவசாயிகள் சென்சார் தரவு மற்றும் மொபைல் செயலி மூலம் தண்ணீரைச் சேமிக்கவும், பயிர் விளைச்சலை அதிகரிக்கவும் உதவும் ஒரு IoT-அடிப்படையிலான தானியங்கி நீர்ப்பாசன அமைப்பு.",
+      "canvas_en": {
+        "key_partners": "IoT hardware manufacturers, agricultural cooperatives, local seed suppliers",
+        "key_activities": "Sensor hardware assembly, mobile app development, data analytics platform maintenance",
+        "value_proposition": "Reduce water usage by 40%, improve crop yield by 15% using real-time automated soil monitoring",
+        "customer_relationships": "Personalized setup support, periodic maintenance contracts, automated app alerts",
+        "customer_segments": "Commercial medium-to-large-scale farmers, organic farms, greenhouse operators",
+        "key_resources": "Soil sensors (moisture, NPK), software developers, agricultural research partnerships",
+        "channels": "Agricultural trade shows, direct sales team, local farming agents",
+        "cost_structure": "Hardware manufacturing, cloud hosting, software R&D, direct field installation costs",
+        "revenue_streams": "Upfront hardware kit sale, monthly SaaS software subscription for advanced metrics & analytics"
+      },
+      "canvas_ta": {
+        "key_partners": "IoT வன்பொருள் உற்பத்தியாளர்கள், விவசாய கூட்டுறவு சங்கங்கள், உள்ளூர் விதை விநியோகஸ்தர்கள்",
+        "key_activities": "சென்சார் வன்பொருள் அசெம்பிளி, மொபைல் பயன்பாட்டு மேம்பாடு, தரவு பகுப்பாய்வு தளம் பராமரிப்பு",
+        "value_proposition": "மண்ணைக் கண்காணிப்பதன் மூலம் நீர் பயன்பாட்டை 40% குறைத்து, பயிர் விளைச்சலை 15% மேம்படுத்துதல்",
+        "customer_relationships": "தனிப்பயனாக்கப்பட்ட நிறுவல் ஆதரவு, அவ்வப்போது பராமரிப்பு ஒப்பந்தங்கள், தானியங்கி மொபைல் எச்சரிக்கைகள்",
+        "customer_segments": "வணிக ரீதியான நடுத்தர முதல் பெரிய அளவிலான விவசாயிகள், இயற்கை பண்ணைகள், பசுமை இல்ல ஆபரேட்டர்கள்",
+        "key_resources": "மண் சென்சார்கள் (ஈரப்பதம், NPK), மென்பொருள் உருவாக்குநர்கள், விவசாய ஆராய்ச்சி கூட்டாண்மைகள்",
+        "channels": "விவசாய கண்காட்சிகள், நேரடி விற்பனைக் குழு, உள்ளூர் விவசாய முகவர்கள்",
+        "cost_structure": "வன்பொருள் தயாரிப்பு, கிளவுட் ஹோஸ்டிங், மென்பொருள் ஆராய்ச்சி மற்றும் மேம்பாடு, கள நிறுவல் செலவுகள்",
+        "revenue_streams": "வன்பொருள் கருவி விற்பனை, மேம்பட்ட பகுப்பாய்வுக்கான மாதாந்திர SaaS சந்தா கட்டணம்"
+      },
+      "marketing_en": {
+        "channels": "Local demonstrations, Facebook & YouTube farming channels, Agriculture magazines",
+        "strategy": "Install test setups in 5 prominent farms in the region, collect video testimonials, and leverage word-of-mouth.",
+        "messaging": "Save water, reduce labor costs, and grow healthier crops with smart data in your hand."
+      },
+      "marketing_ta": {
+        "channels": "உள்ளூர் நேரடி விளக்கங்கள், முகநூல் & யூடியூப் விவசாய சேனல்கள், விவசாய இதழ்கள்",
+        "strategy": "இப்பகுதியில் உள்ள 5 முக்கிய பண்ணைகளில் சோதனை அமைப்புகளை நிறுவி, வீடியோ சான்றுகளை சேகரித்து, வாய்வழி விளம்பரம் மூலம் பரப்புதல்.",
+        "messaging": "உங்கள் கையில் இருக்கும் ஸ்மார்ட் தரவு மூலம் தண்ணீரைச் சேமிக்கவும், உழைப்புச் செலவைக் குறைக்கவும், ஆரோக்கியமான பயிர்களை வளர்க்கவும்."
+      },
+      "financials_en": {
+        "setup_costs": "$3,500 (Prototype materials, initial app development, testing kits)",
+        "monthly_expenses": "$400 (Server hosting, hardware components, local marketing)",
+        "pricing": "$250 per starter kit + $15/month subscription",
+        "projections": "Year 1: 50 customers ($12,500 hardware + $9,000 subscription = $21,500 total)"
+      },
+      "financials_ta": {
+        "setup_costs": "₹2,90,000 (மாதிரி பொருட்கள், ஆரம்ப செயலி மேம்பாடு, சோதனை கருவிகள்)",
+        "monthly_expenses": "₹33,000 (சர்வர் ஹோஸ்டிங், வன்பொருள் பாகங்கள், உள்ளூர் சந்தைப்படுத்தல்)",
+        "pricing": "தொடக்கக் கருவிக்கு ₹20,000 + மாதாந்திர சந்தா ₹1,200",
+        "projections": "ஆண்டு 1: 50 வாடிக்கையாளர்கள் (கருவி விற்பனை ₹10,00,000 + சந்தா ₹7,20,000 = ₹17,20,000 மொத்தம்)"
+      },
+      "checklist_en": [
+        "Procure sample moisture and pH sensors and connect with Arduino/ESP32",
+        "Build a simple dashboard displaying moisture levels and triggering a water valve",
+        "Deploy a prototype in a friendly local farmer's field for a 30-day trial",
+        "Develop basic iOS/Android mobile apps for monitoring",
+        "Gather feedback and launch commercial sales through local agriculture societies"
+      ],
+      "checklist_ta": [
+        "Arduino/ESP32 உடன் இணைக்க ஈரப்பதம் மற்றும் pH சென்சார்களை வாங்கி இணைக்கவும்",
+        "ஈரப்பதம் அளவைக் காட்டும் மற்றும் தண்ணீர் வால்வை இயக்கும் எளிய டாஷ்போர்டை உருவாக்கவும்",
+        "உள்ளூர் விவசாயியின் நிலத்தில் 30 நாள் சோதனைக்காக முன்மாதிரியை நிறுவவும்",
+        "கண்காணிப்பிற்காக எளிய iOS/Android மொபைல் செயலிகளை உருவாக்கவும்",
+        "கருத்துக்களைப் பெற்று, உள்ளூர் விவசாய சங்கங்கள் மூலம் வணிக விற்பனையைத் தொடங்கவும்"
+      ]
+    },
+    {
+      "id": "farmers_marketplace",
+      "industry": "agri",
+      "skills_required": ["marketing", "sales", "management"],
+      "title_en": "Farm-To-Table Direct E-Commerce Platform",
+      "title_ta": "பண்ணையிலிருந்து நேரடி நுகர்வோர் மின்-வணிக தளம்",
+      "description_en": "An online delivery network that bypasses middlemen, connecting small-scale farmers directly to urban households for fresh organic produce delivery.",
+      "description_ta": "இடைத்தரகர்களைத் தவிர்த்து, சிறிய அளவிலான விவசாயிகளை நேரடியாக நகர்ப்புற குடும்பங்களுடன் இணைக்கும் புதிய ஆர்கானிக் விளைபொருள் விநியோகத்திற்கான ஆன்லைன் தளம்.",
+      "canvas_en": {
+        "key_partners": "Local farmer unions, eco-friendly logistics providers, organic certification bodies",
+        "key_activities": "Quality check in fields, website/app maintenance, logistics dispatch, customer service",
+        "value_proposition": "Farmers earn 30% more; consumers get organic produce that is 20% fresher and harvested within 24 hours",
+        "customer_relationships": "Subscription plans (weekly vegetable baskets), transparency tracking (meet your farmer)",
+        "customer_segments": "Health-conscious urban families, premium restaurants, organic food enthusiasts",
+        "key_resources": "Collection hubs, inventory management system, local logistics coordinators",
+        "channels": "Social media ads (Instagram, Facebook), local community groups, apartment association flyers",
+        "cost_structure": "Produce purchase from farmers, packaging materials, delivery riders, digital marketing",
+        "revenue_streams": "Markup on product sales (25-30% margin), weekly/monthly subscription delivery fees"
+      },
+      "canvas_ta": {
+        "key_partners": "உள்ளூர் விவசாயிகள் சங்கங்கள், சூழல் நட்பு தளவாட வழங்குநர்கள், ஆர்கானிக் சான்றிதழ் அமைப்புகள்",
+        "key_activities": "நிலத்தில் தரச் சோதனை, இணையதள/செயலி பராமரிப்பு, விநியோக மேலாண்மை, வாடிக்கையாளர் சேவை",
+        "value_proposition": "விவசாயிகள் 30% கூடுதல் வருமானம் பெறுகின்றனர்; நுகர்வோர் 24 மணி நேரத்திற்குள் அறுவடை செய்யப்பட்ட புதிய பொருட்களைப் பெறுகின்றனர்",
+        "customer_relationships": "வாராந்திர/மாதாந்திர காய்கறி கூடை சந்தா திட்டங்கள், விளைவித்த விவசாயியை அறியும் வெளிப்படைத்தன்மை",
+        "customer_segments": "ஆரோக்கியத்தில் அக்கறையுள்ள நகர்ப்புற குடும்பங்கள், பிரீமியம் உணவகங்கள், இயற்கை உணவு ஆர்வலர்கள்",
+        "key_resources": "சேகரிப்பு மையங்கள், இருப்பு மேலாண்மை அமைப்பு, உள்ளூர் விநியோக ஒருங்கிணைப்பாளர்கள்",
+        "channels": "சமூக ஊடக விளம்பரங்கள் (இன்ஸ்டாகிராம், பேஸ்புக்), உள்ளூர் சமூகக் குழுக்கள், அடுக்குமாடி குடியிருப்புகள்",
+        "cost_structure": "விவசாயிகளிடமிருந்து கொள்முதல் செலவு, பேக்கேஜிங் பொருட்கள், டெலிவரி நபர்களுக்கான கட்டணம், டிஜிட்டல் விளம்பரம்",
+        "revenue_streams": "விற்பனை மீதான லாப வரம்பு (25-30%), வாராந்திர/மாதாந்திர சந்தா விநியோகக் கட்டணங்கள்"
+      },
+      "marketing_en": {
+        "channels": "Instagram reels showing harvesting, Apartment pop-up stalls, Referral programs",
+        "strategy": "Launch in one high-density residential locality, host weekend stalls to let residents taste the freshness, and offer a 'First Week Free' trial subscription.",
+        "messaging": "Eat fresh, support your local farmer, and skip the middleman."
+      },
+      "marketing_ta": {
+        "channels": "அறுவடை முறைகளைக் காட்டும் இன்ஸ்டாகிராம் ரீல்கள், அடுக்குமாடி குடியிருப்பு கடைகள், பரிந்துரை திட்டங்கள்",
+        "strategy": "ஒரு குறிப்பிட்ட குடியிருப்பு பகுதியில் தொடங்கி, வார இறுதி கடைகளை அமைத்து மக்கள் சுவைக்கச் செய்தல், 'முதல் வாரம் இலவசம்' சோதனைத் திட்டம் வழங்குதல்.",
+        "messaging": "புதிய உணவை உண்ணுங்கள், உங்கள் உள்ளூர் விவசாயியை ஆதரியுங்கள், இடைத்தரகர்களைத் தவிர்த்திடுங்கள்."
+      },
+      "financials_en": {
+        "setup_costs": "$1,200 (Website setup, eco-boxes, initial collection center lease)",
+        "monthly_expenses": "$800 (Inventory procurement, delivery team salary, social media marketing)",
+        "pricing": "$15 to $35 per subscription basket",
+        "projections": "Year 1: 150 active subscribers ($3,000 monthly recurring revenue with 25% net profit)"
+      },
+      "financials_ta": {
+        "setup_costs": "₹1,00,000 (இணையதள அமைப்பு, சூழல் நட்பு பெட்டிகள், ஆரம்ப சேகரிப்பு மைய குத்தகை)",
+        "monthly_expenses": "₹66,000 (பொருட்கள் கொள்முதல், விநியோக குழு ஊதியம், சமூக ஊடக விளம்பரம்)",
+        "pricing": "ஒரு சந்தா கூடைக்கு ₹800 முதல் ₹2,500 வரை",
+        "projections": "ஆண்டு 1: 150 செயலில் உள்ள சந்தாதாரர்கள் (25% நிகர லாபத்துடன் மாதாந்திர வருவாய் ₹2,50,000)"
+      },
+      "checklist_en": [
+        "Partner with 5 organic farmers willing to supply fresh produce",
+        "Set up a simple Shopify or WooCommerce website with subscription options",
+        "Arrange a local logistics partner or hire a dedicated delivery rider",
+        "Conduct a pilot run with 15 friends and family members to test supply times",
+        "Launch marketing campaign targeting residential apartments"
+      ],
+      "checklist_ta": [
+        "விளைபொருட்களை வழங்க விரும்பும் 5 ஆர்கானிக் விவசாயிகளுடன் ஒப்பந்தம் செய்யுங்கள்",
+        "சந்தா விருப்பங்களுடன் கூடிய எளிய Shopify அல்லது WooCommerce இணையதளத்தை அமைக்கவும்",
+        "உள்ளூர் விநியோக கூட்டாளரை ஏற்பாடு செய்யுங்கள் அல்லது பிரத்யேக டெலிவரி நபரை நியமிக்கவும்",
+        "விநியோக நேரங்களை சோதிக்க 15 நண்பர்கள் மற்றும் குடும்ப உறுப்பினர்களுடன் ஒரு முன்னோடி திட்டத்தை இயக்கவும்",
+        "குடியிருப்பு அடுக்குமாடி குடியிருப்புகளை இலக்காகக் கொண்டு சந்தைப்படுத்தல் பிரச்சாரத்தைத் தொடங்கவும்"
+      ]
+    },
+    {
+      "id": "nocode_agency",
+      "industry": "tech",
+      "skills_required": ["design", "marketing", "sales"],
+      "title_en": "No-Code Development & Automation Agency",
+      "title_ta": "நோ-கோட் மேம்பாடு மற்றும் தானியங்கி முகமை",
+      "description_en": "Building websites, mobile apps, and custom workflow automations for small and medium businesses using visual tools like Webflow, Bubble, and Zapier.",
+      "description_ta": "Webflow, Bubble, மற்றும் Zapier போன்ற கருவிகளைப் பயன்படுத்தி சிறு மற்றும் நடுத்தர வணிகங்களுக்கு இணையதளங்கள், மொபைல் செயலிகள் மற்றும் பணிப்பாய்வு ஆட்டோமேஷன்களை உருவாக்குதல்.",
+      "canvas_en": {
+        "key_partners": "No-code platform providers, independent graphic designers, copywriters",
+        "key_activities": "Building client apps/websites, designing UI mockups, setting up automated integrations",
+        "value_proposition": "Deliver custom software 5x faster and 70% cheaper than traditional development agencies",
+        "customer_relationships": "Collaborative Slack channels, project-based updates, monthly support/maintenance plans",
+        "customer_segments": "Non-technical founders, small local businesses, agencies looking to outsource development",
+        "key_resources": "No-code developers, portfolio site, premium accounts on Bubble, Zapier, Webflow",
+        "channels": "Upwork, LinkedIn networking, cold outreach to traditional design agencies",
+        "cost_structure": "Platform subscription costs, marketing/outreach campaigns, subcontractor fees",
+        "revenue_streams": "Project setup fees ($1,500 - $8,000 per build), monthly retainer/support fees ($300 - $1,000/month)"
+      },
+      "canvas_ta": {
+        "key_partners": "நோ-கோட் இயங்குதள வழங்குநர்கள், சுயாதீன வடிவமைப்பாளர்கள், உள்ளடக்க எழுத்தாளர்கள்",
+        "key_activities": "வாடிக்கையாளர் செயலிகள்/இணையதளங்களை உருவாக்குதல், UI மாதிரிகளை வடிவமைத்தல், ஆட்டோமேஷன் அமைத்தல்",
+        "value_proposition": "பாரம்பரிய மென்பொருள் மேம்பாட்டு நிறுவனங்களை விட 5 மடங்கு வேகமாகவும் 70% மலிவாகவும் மென்பொருளை வழங்குதல்",
+        "customer_relationships": "கூட்டு ஸ்லாக் சேனல்கள், திட்டம் சார்ந்த புதுப்பிப்புகள், மாதாந்திர ஆதரவு மற்றும் பராமரிப்பு",
+        "customer_segments": "தொழில்நுட்ப அறிவு இல்லாத நிறுவனர்கள், சிறிய உள்ளூர் வணிகங்கள், வடிவமைப்பை அவுட்சோர்ஸ் செய்ய நினைக்கும் நிறுவனங்கள்",
+        "key_resources": "நோ-கோட் உருவாக்குநர்கள், போர்ட்ஃபோலியோ தளம், Bubble, Zapier, Webflow பிரீமியம் கணக்குகள்",
+        "channels": "Upwork, LinkedIn நெட்வொர்க்கிங், பாரம்பரிய வடிவமைப்பு முகமைகளுக்கு நேரடி மின்னஞ்சல்கள்",
+        "cost_structure": "தள சந்தா செலவுகள், சந்தைப்படுத்தல் பிரச்சாரங்கள், துணை ஒப்பந்தக்காரர் கட்டணங்கள்",
+        "revenue_streams": "திட்ட மேம்பாட்டுக் கட்டணங்கள் (ஒரு திட்டத்திற்கு ₹1,20,000 - ₹6,00,000), மாதாந்திர பராமரிப்பு கட்டணங்கள்"
+      },
+      "marketing_en": {
+        "channels": "LinkedIn content, Video case studies on YouTube, Cold emailing",
+        "strategy": "Build 3 high-quality concepts for local businesses for free, turn them into video walkthroughs showing how it automates their manual work, and pitch on LinkedIn.",
+        "messaging": "Get your custom software launched in weeks, not months. No coding required."
+      },
+      "marketing_ta": {
+        "channels": "LinkedIn உள்ளடக்கங்கள், யூடியூப்பில் வீடியோ வழக்கு ஆய்வுகள், நேரடி மின்னஞ்சல் பிரச்சாரங்கள்",
+        "strategy": "உள்ளூர் வணிகங்களுக்காக 3 உயர்தர கருத்துருக்களை இலவசமாக உருவாக்கி, அவை எவ்வாறு வேலைகளை தானியங்கியாக்குகின்றன என்பதை வீடியோவாக விளக்கி லிங்க்டினில் பகிரவும்.",
+        "messaging": "வாரங்களில் உங்கள் மென்பொருளைத் தொடங்குங்கள், மாதங்கள் காத்திருக்க வேண்டாம். குறியீட்டு அறிவு தேவையில்லை."
+      },
+      "financials_en": {
+        "setup_costs": "$300 (Portfolio website, platform subscriptions)",
+        "monthly_expenses": "$150 (Hosting, premium tool subscriptions, Google Workspace)",
+        "pricing": "$2,000 average per client project",
+        "projections": "Year 1: 12 clients ($24,000 total revenue with 90% net profit margin)"
+      },
+      "financials_ta": {
+        "setup_costs": "₹25,000 (போர்ட்ஃபோலியோ இணையதளம், மென்பொருள் சந்தாக்கள்)",
+        "monthly_expenses": "₹12,000 (ஹோஸ்டிங், பிரீமியம் கருவிகள் சந்தா, கூகுள் ஒர்க்ஸ்பேஸ்)",
+        "pricing": "ஒரு வாடிக்கையாளர் திட்டத்திற்கு சராசரியாக ₹1,50,000",
+        "projections": "ஆண்டு 1: 12 வாடிக்கையாளர்கள் (90% நிகர லாப வரம்புடன் மொத்தம் ₹18,00,000 வருவாய்)"
+      },
+      "checklist_en": [
+        "Master Bubble, Webflow, and Make/Zapier through online tutorials",
+        "Build a stunning personal portfolio website showcasing mock projects",
+        "Set up standard client contracts and project management pipelines in Notion",
+        "Launch outbound campaign on LinkedIn offering free automation audits",
+        "Secure the first paying client and deliver the project in under 3 weeks"
+      ],
+      "checklist_ta": [
+        "ஆன்லைன் பயிற்சிகள் மூலம் Bubble, Webflow மற்றும் Make/Zapier ஐக் கற்றுக் கொள்ளுங்கள்",
+        "மாதிரி திட்டங்களைக் காட்டும் அற்புதமான போர்ட்ஃபோலியோ இணையதளத்தை உருவாக்கவும்",
+        "நோஷனில் வாடிக்கையாளர் ஒப்பந்தங்கள் மற்றும் திட்ட மேலாண்மை அமைப்புகளை அமைக்கவும்",
+        "லிங்க்டினில் இலவச ஆட்டோமேஷன் தணிக்கைகளை வழங்கும் பிரச்சாரத்தைத் தொடங்கவும்",
+        "முதல் பணம் செலுத்தும் வாடிக்கையாளரைப் பெற்று 3 வாரங்களுக்குள் திட்டத்தை முடிக்கவும்"
+      ]
+    },
+    {
+      "id": "elearning_cohorts",
+      "industry": "edu",
+      "skills_required": ["writing", "marketing", "coding"],
+      "title_en": "Cohort-Based E-Learning for Tech & Business Skills",
+      "title_ta": "தொழில்நுட்ப மற்றும் வணிகத் திறன்களுக்கான குழு சார்ந்த கற்றல் தளம்",
+      "description_en": "Interactive, cohort-based online classes offering hands-on coding and business mentoring for college students and career switchers.",
+      "description_ta": "கல்லூரி மாணவர்கள் மற்றும் வேலை மாறுபவர்களுக்கு நேரடி குறியீட்டு முறை மற்றும் வணிக ஆலோசனைகளை வழங்கும் ஊடாடும் ஆன்லைன் வகுப்புகள் தளம்.",
+      "canvas_en": {
+        "key_partners": "Industry professionals as guest speakers, student ambassadors, career placement partners",
+        "key_activities": "Curriculum preparation, live session delivery, assignment evaluation, community moderation",
+        "value_proposition": "80% completion rate (vs 5% for recorded courses) due to live community peer accountability and mentorship",
+        "customer_relationships": "Direct Discord/Slack access to mentors, weekly live Q&A, lifetime alumni group",
+        "customer_segments": "College graduates seeking practical skills, professionals wanting to transition into tech/product roles",
+        "key_resources": "Instructors, curriculum designers, learning management system (LMS) setup, community tools",
+        "channels": "Twitter/X professional threads, developer blogs, college webinar series",
+        "cost_structure": "Instructor payments, video conferencing tools, community software platforms, ads",
+        "revenue_streams": "Flat course tuition fee per cohort ($150 - $400), corporate group training packages"
+      },
+      "canvas_ta": {
+        "key_partners": "விருந்தினர் பேச்சாளர்களாக தொழில் வல்லுநர்கள், கல்லூரி தூதர்கள், வேலைவாய்ப்பு கூட்டாளிகள்",
+        "key_activities": "பாடத்திட்டம் தயாரித்தல், நேரடி வகுப்புகள் நடத்துதல், வீட்டுப்பாடம் மதிப்பீடு, சமூகம் நிர்வகித்தல்",
+        "value_proposition": "நேரடி வகுப்புகள் மற்றும் வழிகாட்டுதல் காரணமாக 80% படிப்பை முடிக்கும் விகிதம் (பதிவு செய்யப்பட்ட வகுப்புகளுக்கு இது 5%)",
+        "customer_relationships": "வழிகாட்டிகளுடன் நேரடி டிஸ்கார்ட்/ஸ்லாக் தொடர்பு, வாராந்திர நேரடி கேள்வி-பதில், முன்னாள் மாணவர்கள் குழு",
+        "customer_segments": "நடைமுறைத் திறன்களைத் தேடும் கல்லூரி பட்டதாரிகள், தொழில்நுட்பம்/தயாரிப்புப் பணிகளுக்கு மாற விரும்பும் பணியாளர்கள்",
+        "key_resources": "ஆசிரியர்கள், பாடத்திட்ட வடிவமைப்பாளர்கள், கற்றல் மேலாண்மை அமைப்பு (LMS), சமூகக் கருவிகள்",
+        "channels": "Twitter/X தொழில்முறை நூல்கள், டெவலப்பர் வலைப்பதிவுகள், கல்லூரி வெபினாரிகள்",
+        "cost_structure": "ஆசிரியர்களுக்கான கொடுப்பனவு, வீடியோ கான்பரன்சிங் கருவிகள், சமூக மென்பொருள், விளம்பரங்கள்",
+        "revenue_streams": "ஒரு குழுவிற்கு ஒரு குறிப்பிட்ட படிப்பு கட்டணம் (₹12,000 - ₹30,000), கார்ப்பரேட் பயிற்சிக் கட்டணங்கள்"
+      },
+      "marketing_en": {
+        "channels": "Twitter / LinkedIn educational posts, YouTube tutorials, Free introductory bootcamps",
+        "strategy": "Host a free 3-day bootcamp on 'Intro to App Development', convert top performers and interested attendees into the 6-week paid cohort program.",
+        "messaging": "Stop learning in isolation. Code, build projects, and get hired alongside a supportive cohort."
+      },
+      "marketing_ta": {
+        "channels": "ட்விட்டர் / லிங்க்டின் கல்விப் பதிவுகள், யூடியூப் பயிற்சிகள், இலவச அறிமுக பயிற்சி வகுப்புகள்",
+        "strategy": "'ஆப் டெவலப்மென்ட் அறிமுகம்' என்ற தலைப்பில் இலவச 3 நாள் வகுப்பை நடத்தி, ஆர்வமுள்ள பங்கேற்பாளர்களை 6 வார கட்டணக் குழுவில் சேர்க்கவும்.",
+        "messaging": "தனிமையில் கற்பதை நிறுத்துங்கள். ஒரு ஆதரவான குழுவுடன் இணைந்து குறியீடு எழுதி, திட்டங்களை உருவாக்கி, வேலை பெறுங்கள்."
+      },
+      "financials_en": {
+        "setup_costs": "$200 (Website design, Discord setup, initial curriculum research)",
+        "monthly_expenses": "$100 (Zoom Pro subscription, Slack premium, marketing graphics)",
+        "pricing": "$199 per student per cohort",
+        "projections": "Year 1: 4 cohorts of 30 students each = 120 students ($23,880 gross revenue with 85% profit)"
+      },
+      "financials_ta": {
+        "setup_costs": "₹16,000 (இணையதள வடிவமைப்பு, டிஸ்கார்ட் அமைப்பு, ஆரம்ப பாடத்திட்ட ஆராய்ச்சி)",
+        "monthly_expenses": "₹8,000 (சூம் புரோ சந்தா, ஸ்லாக் பிரீமியம், விளம்பர படங்கள்)",
+        "pricing": "ஒரு குழுவிற்கு ஒரு மாணவருக்கு ₹15,000",
+        "projections": "ஆண்டு 1: 4 குழுக்கள் தலா 30 மாணவர்கள் = 120 மாணவர்கள் (85% லாபத்துடன் ₹18,00,000 மொத்த வருவாய்)"
+      },
+      "checklist_en": [
+        "Design a 6-week detailed syllabus with weekly milestones and projects",
+        "Set up a landing page with a waitlist form using Carrd or Framer",
+        "Promote a free webinar/masterclass to build an email list of 300+ people",
+        "Open applications for Cohort 1 and select 25-30 motivated students",
+        "Conduct Cohort 1 and collect testimonials to scale Cohort 2 pricing"
+      ],
+      "checklist_ta": [
+        "வாராந்திர இலக்குகள் மற்றும் திட்டங்களுடன் கூடிய 6 வார விரிவான பாடத்திட்டத்தை வடிவமைக்கவும்",
+        "Carrd அல்லது Framer ஐப் பயன்படுத்தி காத்திருப்புப் படிவத்துடன் கூடிய எளிய பக்கத்தை அமைக்கவும்",
+        "300+ பேர் கொண்ட மின்னஞ்சல் பட்டியலை உருவாக்க இலவச வெபினாரை விளம்பரப்படுத்தவும்",
+        "குழு 1-க்கான சேர்க்கையைத் தொடங்கி 25-30 ஆர்வமுள்ள மாணவர்களைத் தேர்ந்தெடுக்கவும்",
+        "குழு 1-ஐ வெற்றிகரமாக நடத்தி, கருத்துக்களைப் பெற்று குழு 2-ஐ விரிவுபடுத்தவும்"
+      ]
+    }
+  ],
+  "faq_en": [
+    {
+      "question": "How do I choose the right business model?",
+      "answer": "Analyze your startup's cost structure, target audience, and scale. Common models include Subscription (SaaS), Transactional (Marketplace), and Direct Sales. Test with a Minimum Viable Product (MVP) before scaling."
+    },
+    {
+      "question": "What is a Minimum Viable Product (MVP)?",
+      "answer": "An MVP is the simplest version of your product that allows you to collect the maximum amount of validated learning about customers with the least effort."
+    },
+    {
+      "question": "How can I fund my new startup idea?",
+      "answer": "Begin with Bootstrapping (self-funding) to build your MVP. Once you show user traction, look for Angel Investors, Crowdfunding, or Startup Grants from government/incubator programs."
+    }
+  ],
+  "faq_ta": [
+    {
+      "question": "சரியான வணிக மாதிரியை நான் எவ்வாறு தேர்ந்தெடுப்பது?",
+      "answer": "உங்கள் தொடக்க நிறுவனத்தின் செலவு அமைப்பு, இலக்கு வாடிக்கையாளர்கள் மற்றும் அளவை ஆராயுங்கள். சந்தா (SaaS), பரிவர்த்தனை (சந்தை), மற்றும் நேரடி விற்பனை ஆகியவை பொதுவான மாதிரிகள் ஆகும். அளவிடுவதற்கு முன் குறைந்தபட்ச சாத்தியமான தயாரிப்பு (MVP) மூலம் சோதிக்கவும்."
+    },
+    {
+      "question": "குறைந்தபட்ச சாத்தியமான தயாரிப்பு (MVP) என்றால் என்ன?",
+      "answer": "ஒரு MVP என்பது வாடிக்கையாளர்களைப் பற்றிய அதிகபட்ச சரிபார்க்கப்பட்ட கற்றலை குறைந்த முயற்சியுடன் சேகரிக்க அனுமதிக்கும் உங்கள் தயாரிப்பின் எளிமையான பதிப்பாகும்."
+    },
+    {
+      "question": "எனது புதிய தொடக்க யோசனைக்கு நான் எவ்வாறு நிதி திரட்டுவது?",
+      "answer": "உங்கள் MVP ஐ உருவாக்க பூட்ஸ்ட்ராப்பிங் (சுய நிதி) மூலம் தொடங்கவும். வாடிக்கையாளர் ஈர்ப்பைக் காட்டியவுடன், ஏஞ்சல் முதலீட்டாளர்கள், கிரவுட் ஃபண்டிங் அல்லது அரசு/இன்குபேட்டர் திட்டங்களின் தொடக்க மானியங்களைத் தேடுங்கள்."
+    }
+  ]
+}
